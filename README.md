@@ -62,6 +62,12 @@ Follow these steps to set up the project locally:
 
    The server should now be running. By default, it listens on port 3000 (you can change this in your configuration).
 
+2.1 If you downloaded setup.sh manually, make it executable first:
+  ```
+    chmod +x setup.sh
+    ./setup.sh
+  ```
+
 ## Project Structure
 
 ```
