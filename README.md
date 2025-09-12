@@ -39,27 +39,24 @@ Chess BackEnd is the backend implementation for a chess game application. This r
 
 Follow these steps to set up the project locally:
 
-1. **Clone the Repository**
+1. **Run the Setup Script**
+
+   Download and execute the provided setup script to clone the repository and install dependencies automatically:
+
+   ```bash
+   curl -fsSL https://raw.githubusercontent.com/ayush-jadaun/chessBackEnd/main/setup.sh | bash
+   ```
+
+   This will take care of cloning the repository, installing dependencies, and starting the server for you.
+
+2. **Manual Setup (Optional)**
+
+   If you prefer manual setup, follow these commands:
 
    ```bash
    git clone https://github.com/ayush-jadaun/chessBackEnd.git
-   ```
-
-2. **Navigate to the Project Directory**
-
-   ```bash
    cd chessBackEnd
-   ```
-
-3. **Install Dependencies**
-
-   ```bash
    npm install
-   ```
-
-4. **Start the Server**
-
-   ```bash
    npm run start
    ```
 
